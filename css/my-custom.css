@@ -1,0 +1,243 @@
+.pointer-events-none {
+    pointer-events: none;
+    opacity: 0.5;
+
+}
+
+.page-link a {
+    color: black;
+}
+
+.header-sine-in {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dropdown-toggle {
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 25px;
+    background-color: #f8f9fa;
+    border: 1px solid #ced4da;
+    transition: background-color 0.3s ease;
+}
+
+.dropdown-toggle:hover {
+    background-color: #e2e6ea;
+}
+
+.dropdown-menu {
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-item {
+    text-align: center;
+    padding: 8px 20px;
+    transition: background-color 0.2s ease;
+}
+
+.dropdown-item:hover {
+    background-color: #f0f0f0;
+}
+
+/* Style the user icon */
+.flaticon-user {
+    margin-right: 8px;
+}
+
+.hot-post-content {
+    margin-bottom: 10px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.header-action>ul li {
+    margin-left: 0;
+    padding: 10px 10px;
+}
+
+.icon-custom {
+    margin-right: 20px;
+}
+
+.header-action .header-sine-in a i {
+    font-size: 13px;
+}
+
+.form-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-container h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.form-control[readonly] {
+    background-color: #e9ecef;
+}
+
+textarea.form-control {
+    height: 250px;
+    /* Set custom height */
+}
+
+.round-logo {
+    width: 100px;
+    /* Adjust as needed */
+    height: 100px;
+    /* Adjust as needed */
+    border-radius: 50%;
+    border: 2px solid #fff;
+    /* Add a border if desired */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    /* Add a drop shadow */
+    object-fit: cover;
+}
+
+.round-logo:hover {
+    transform: scale(1.1);
+    /* Add a hover effect */
+}
+
+li .dropdown-divider {
+    padding: 0px;
+}
+
+[tg-theme=dark] .header-action .header-sine-in a {
+    border-color: rgb(73, 70, 70);
+    background-color: var(--tg-teal);
+}
+
+[tg-theme=dark] .dropdown-menu.show {
+    background-color: var(--tg-teal);
+}
+
+mark {
+    background-color: gold;
+    padding: 0;
+}
+
+.ck-editor__editable {
+    min-height: 300px;
+}
+
+.btn-custom {
+    background-color: rgb(214, 49, 49);
+}
+
+.icon-like.liked {
+    color: rgb(197, 53, 53);
+}
+
+.icon-like-video.liked {
+    color: rgb(197, 53, 53);
+}
+
+.btn-detailsVideo {
+    border: 2px solid slateblue;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.btn-video:hover {
+    background-color: slategray;
+}
+
+.container-password span {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    color: #8e44ad;
+    cursor: pointer;
+    display: none;
+}
+
+.container-password input:valid~span {
+    display: block;
+}
+
+.container-password span i.hide-btn::before {
+    content: "\f070";
+}
+
+
+
+.img-ratio {
+    aspect-ratio: 16/9;
+}
+
+.boder-glod {
+    color: #FFFF;
+    font-size: 15px;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 0px ;
+    padding: 5px;
+    background-color: #183354;
+}
+
+.boder-glod-name {
+    color: #F4796C;
+    font-size: 10px;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.boder-value {
+    display: block;
+    color: #6A5ACD;
+    font-size: 10px;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.btn-boders {
+    background-color: #183354;
+}
+
+.btn-boder {
+    border: 1px solid #6A5ACD;
+}
+
+.alert {
+    text-align: center;
+    padding: 5px 5px;
+}
+
+.alert ul li {
+    margin-top: 16px;
+    align-items: center;
+}
+
+h6 {
+    text-transform: none;
+}
+
+.btn-likess{
+    outline: medium;
+    border: none;
+    background-color: #fff;
+}
+.alert ul {
+    padding-left: 0px;
+}
+
+.comments-text > p {
+    text-transform: none;
+}
